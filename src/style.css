@@ -4,12 +4,9 @@
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.conteiner {
-
-}
-
 body {
-    margin: 60px auto;
+    margin: 100px auto;
+   
     /* max-width: 1000px; */
 }
 
@@ -97,6 +94,24 @@ p {
     text-decoration: underline;
 }
 
-.navbar {
+.primary-link:hover {
+    color: wheat;
+}
 
+.progect-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+}
+
+@media (max-width: 900px) {
+   h1 {
+        font-size: 24px;
+        line-height: 0.5;
+   }
+
+   h2 {
+    font-size: 32px;
+    text-align: center;
+   }
 }
