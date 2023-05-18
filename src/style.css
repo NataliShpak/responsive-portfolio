@@ -1,3 +1,6 @@
+/* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+
 :root {
     --primary-color: #6c63ff;
     --secondary-color: #f5f2fe;
@@ -6,6 +9,7 @@
 
 body {
     margin: 100px auto;
+    /* background-color: blue; */
    
     /* max-width: 1000px; */
 }
@@ -19,6 +23,8 @@ h3 {
 
 h1 {
     font-size: 96px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
 }
 
 h2 {
@@ -39,6 +45,8 @@ p {
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
 }
 
 .navigation-links {
