@@ -160,6 +160,41 @@ p {
     margin: 0 20px;
 }
 
+.logo {
+    max-width: 50px;
+}
+
+nav {
+    /* display: flex;
+    justify-content: space-between; */
+    padding: 20px 0;
+} 
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    line-height: 42px;
+    margin: 0;
+    padding: 0;
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    transition: all 150ms ease-in-out;
+}
+
+nav a:hover, 
+nav li.active a {
+    color: var(--primary-color);
+}
+
 @media (max-width: 900px) {
    h1 {
         font-size: 44px;
