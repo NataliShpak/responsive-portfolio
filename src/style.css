@@ -30,9 +30,9 @@ h3 {
     /* font-weight: bold; */
 }
 
-h4 {
+/* h4 {
     font-size: 48px;
-}
+} */
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font-family);
@@ -51,11 +51,15 @@ p {
     font-weight: normal;
 }
 
+.containet {
+margin: 0 auto;
+} 
+
 .hero {
     /* background-color: rgb(234, 240, 161); */
     background: linear-gradient(45deg, rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(237,244,134,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     text-align: center;
-    padding: 160px 20px;
+    padding: 80px 20px;
     margin-top: 0;
 }
 
@@ -85,6 +89,10 @@ p {
     padding: 20px 15px;
     text-decoration: none;
     text-transform: capitalize;
+}
+
+.content-conteiner {
+    padding: (60px 20px);
 }
 
 .contact-link {
@@ -205,13 +213,17 @@ footer {
 
 footer .contact-box {
     background-color: var(--secondary-color);
-    padding: 30px 60px;
-    border-radius: 10px 60px;
+    padding: 30px 200px;
+    border-radius: 10px 100px;
 }
 
 footer .contact-box p {
     margin: 0;
     padding: 0;
+}
+
+footer .btn-branding {
+    margin: auto 0;
 }
 
 footer .email-link {
